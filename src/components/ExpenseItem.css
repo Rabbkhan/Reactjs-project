@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.text h1{
+    /* margin:20px 10px 40px 10px; */
+    /* align-items: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px ;
+}
+.container{
+display: flex;
+/* flex-direction: column-reverse; */
+background-color: aliceblue;
+max-width: 50%;
+align-items: center;
+justify-content: space-between;
+margin:auto;
+box-shadow:  5px 5px 20px rgb(142, 109, 109);
+padding-left: 10px;
+padding-right: 10px;
+height: 5rem;
+font-size: 20px;
+border-radius: 5px;
+margin-top: 20px;
+}
+ .expensesection{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+ .price{
+    background-color: aqua;
+    /* max-width: 100px!important; */
+    height: 50px;
+    text-align: center;
+    border-radius: 19px;
+    border: 1px solid black;
+    font-size: 36px
+
+}
+
+
