@@ -1,6 +1,6 @@
 import React from 'react'
 import ExpenseItems from './components/ExpenseItems'
-
+import ExpenseForm from './components/ExpenseForm';
 const App = () => {
   const expense = [
     {id:'e1', title:'Food', amount: 294.67, date:new Date(2023, 7, 20)},
@@ -11,6 +11,7 @@ const App = () => {
     <>
     <h1>Lets make a expense Tracker</h1>
 
+    <ExpenseForm/>
     <ExpenseItems 
     title ={expense[0].title}
     amount={expense[0].amount}
@@ -25,7 +26,6 @@ const App = () => {
      title ={expense[2].title}
      amount={expense[2].amount}
      date={expense[2].date}/> 
-   
     </>
  )
 }
