@@ -21,6 +21,9 @@ const ExpenseForm = () => {
             date: new Date(enteredDate)
         }
         console.log(formData)
+        SetEnteredTitle('');
+        SetEnteredAmount('');
+        SetEnteredDate('')
     }
   return (
 
@@ -35,9 +38,6 @@ const ExpenseForm = () => {
                 <label form='expensetdate'>Date</label>
                 <input type='date' value={enteredDate} onChange={detechangeHandler} min="2019-01-01"  max=" 2023-12-31" placeholder='Date'/>
                 </div>
-                </div>
-                <br/>
-                <div className='new-expense_actions'>
                 <button>Add expense</button>
                 </div>
             </form>

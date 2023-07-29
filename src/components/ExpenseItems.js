@@ -28,9 +28,6 @@ console.log(title);
 <button onClick={clickHandler}>change title</button>
 <button onClick={expenseHandler}>Update expense</button>
 </div>
-   
-
-
     </>
   )
 }
