@@ -16,6 +16,17 @@ console.log(title);
 }
   return (
     <>
+    <div className='datesection'>
+
+    <div className='filter'>filter by the</div>
+<div className='dropdown'>
+    <select option="year">
+        <option>2023</option>
+        <option>2023</option>
+        <option>2023</option>
+    </select>
+</div>
+    </div>
     
 <div className='container'>
     

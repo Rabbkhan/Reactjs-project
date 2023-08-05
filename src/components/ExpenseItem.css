@@ -44,5 +44,19 @@ margin-top: 20px;
     font-size: 36px
 
 }
-
-
+.datesection{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-around;
+    margin-left: 10px;
+    width: 100%;
+    font-size: large;
+}
+.filter{
+    box-shadow: 10px 10px 20px black;
+}
+.dropdown select{
+    width: 100px;
+    height: 40px;
+}
